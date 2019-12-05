@@ -400,6 +400,14 @@ a{
     text-transform: uppercase;
   }
 
+  /*media queries*/     
+
+  @media (max-width: 600px){
+      .ba-about .ba-col-6{
+          width: 100%;
+      }
+  }
+
 
 
 
