@@ -42,7 +42,7 @@ for(let i = 0; i<newClass.length; i++){
 
 // 3). Если в блоке team-member указано имя ‘Enriko’, ‘ENRIKO’, ‘EnRiko’ и т.д то у team-member добавить класс team-member__active и этот класс должен добавлять красную обводку.
 
-let classMember = document.querySelectorAll('ba-team-member h3');
+let classMember = document.querySelectorAll('.ba-team-member h3');
 for(let i =0; i<classMember.length; i++){
     classMember[i].innerText;
     let member = innerText;
